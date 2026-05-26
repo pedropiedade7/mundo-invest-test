@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/lib/pq"
-	"github.com/pedropiedade7/mundo-invest-test/domain"
+	"github.com/pedropiedade7/mundo-invest-test/internal/domain"
 )
 
 func (r *Repository) CreateClient(ctx context.Context, client domain.Client) (domain.Client, error) {

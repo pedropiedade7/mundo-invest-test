@@ -4,7 +4,7 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/pedropiedade7/mundo-invest-test/domain"
+	"github.com/pedropiedade7/mundo-invest-test/internal/domain"
 )
 
 func StatusFromError(err error) int {

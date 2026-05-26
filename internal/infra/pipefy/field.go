@@ -1,6 +1,6 @@
 package pipefy
 
-const UpdateCardFieldsMutation = `mutation UpdateClientCard($cardId: ID!, $status: [UndefinedInput], $prioridade: [UndefinedInput]) {
+const UpdateCardFieldsMutation = `mutation UpdateClientCard($cardId: ID!, $status: [String!], $prioridade: [String!]) {
   status: updateCardField(input: {
     card_id: $cardId
     field_id: "status_cliente"

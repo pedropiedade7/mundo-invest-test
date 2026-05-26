@@ -6,7 +6,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/pedropiedade7/mundo-invest-test/domain"
+	"github.com/pedropiedade7/mundo-invest-test/internal/domain"
 )
 
 func (r *Repository) FindClientByEmail(ctx context.Context, email string) (domain.Client, error) {

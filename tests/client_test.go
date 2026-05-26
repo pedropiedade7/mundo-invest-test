@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"github.com/gin-gonic/gin"
-	"github.com/pedropiedade7/mundo-invest-test/domain"
+	"github.com/pedropiedade7/mundo-invest-test/internal/domain"
 )
 
 func TestCreateClientWithValidPayloadPersistsClient(t *testing.T) {

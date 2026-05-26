@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/pedropiedade7/mundo-invest-test/domain"
+	"github.com/pedropiedade7/mundo-invest-test/internal/domain"
 	"github.com/pedropiedade7/mundo-invest-test/internal/infra/pipefy"
 )
 

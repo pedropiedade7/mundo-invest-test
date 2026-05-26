@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/pedropiedade7/mundo-invest-test/domain"
 	"github.com/pedropiedade7/mundo-invest-test/internal/app/handler"
 	clienthandler "github.com/pedropiedade7/mundo-invest-test/internal/app/handler/client"
 	pipefyhandler "github.com/pedropiedade7/mundo-invest-test/internal/app/handler/pipefy"
+	"github.com/pedropiedade7/mundo-invest-test/internal/domain"
 	"github.com/pedropiedade7/mundo-invest-test/internal/infra/pipefy"
 	"github.com/pedropiedade7/mundo-invest-test/internal/service"
 )

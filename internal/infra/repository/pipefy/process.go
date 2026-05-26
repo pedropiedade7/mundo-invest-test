@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/lib/pq"
-	"github.com/pedropiedade7/mundo-invest-test/domain"
+	"github.com/pedropiedade7/mundo-invest-test/internal/domain"
 )
 
 func (r *Repository) HasProcessedEvent(ctx context.Context, eventID string) (bool, error) {
