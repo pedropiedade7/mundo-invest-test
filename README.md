@@ -20,7 +20,7 @@ API em Go para gerenciar clientes, simular o mapeamento de cards no Pipefy e pro
 Suba o banco:
 
 ```bash
-docker compose up -d
+sudo docker compose up -d
 ```
 
 Crie um `.env` a partir do exemplo:
